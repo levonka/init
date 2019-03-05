@@ -1,0 +1,13 @@
+163.172.250.11
+163.172.250.13
+163.172.250.12
+
+# dig +short 42.fr
+# or: ping -c2 42.fr | sed -n '2p' | awk '{print $4}' | sed 's/://'
+# or: host 42.fr | grep 'address' | awk '{print $NF}'
+
+# dig analog of nslookup
+
+# https://support.rackspace.com/how-to/using-dig-to-query-nameservers/
+# https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/
+# https://www.youtube.com/watch?v=hYZY75xMjlY

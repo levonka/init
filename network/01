@@ -1,0 +1,6 @@
+ifconfig -l
+
+# It shows information about network interfaces, allows to change it, adjust etc.
+
+# show list of the network interfaces
+# https://losst.ru/komanda-ifconfig-primery-ispolzovaniya

@@ -1,0 +1,8 @@
+ssh
+
+# ssh (username)@(ip) -p (port)
+
+# default port is 22.
+
+# https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/
+# https://wpguru.co.uk/2014/02/how-to-ssh-into-a-virtual-machine-in-parallels-desktop/

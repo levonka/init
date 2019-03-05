@@ -1,0 +1,7 @@
+ps -e | grep sshd | awk '{print $1}'
+
+# pid is process id
+
+# https://ru.wikipedia.org/wiki/Демон_(программа)
+# https://ru.wikipedia.org/wiki/Идентификатор_процесса
+# http://blog.sedicomm.com/2018/05/28/30-poleznyh-komand-ps-dlya-monitoringa-protsessov-linux/

@@ -1,0 +1,5 @@
+/etc/hostname
+
+# maybe also need to edit the /etc/hosts file
+
+# https://www.cyberciti.biz/faq/debian-change-hostname-permanently/

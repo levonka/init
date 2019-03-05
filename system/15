@@ -1,0 +1,8 @@
+kill
+
+# kill -l - list of signals. Most common signals are from 9 to 15
+# SIGKILL(9) - Kill signal. Not save data.
+# SIGTERM(15) - Termination signal. The default and the safest way to kill process.
+
+# https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/
+# https://www.booleanworld.com/kill-process-linux/

@@ -1,0 +1,6 @@
+networksetup -getinfo Ethernet | sed -n '2p' | awk '{print $NF}'
+
+# or: ifconfig en0 | grep 'inet ' | awk '{print $2}'
+# https://www.youtube.com/watch?v=uZJ8WVdw-Ck
+# https://www.acmesystems.it/ip_discovering
+# https://ru.wikipedia.org/wiki/DHCP

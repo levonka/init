@@ -1,0 +1,4 @@
+route get default | grep 'gateway' | awk '{print $NF}'
+
+# it shows tables of ip routing and allows to adjust them
+# http://manpages.ylsoftware.com/ru/route.8.html

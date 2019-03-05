@@ -1,0 +1,3 @@
+service ssh stop
+
+# https://help.ubuntu.ru/wiki/ssh

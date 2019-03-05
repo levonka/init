@@ -1,0 +1,5 @@
+hostname Levonka
+
+# after you should change /etc/hostname and /etc/hosts files
+
+# https://www.cyberciti.biz/faq/debian-change-hostname-permanently/

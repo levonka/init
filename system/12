@@ -1,0 +1,6 @@
+du -h /var
+
+# var is a subdirectory of the root in u-x os that contains files to which the system writes
+# http://www.linfo.org/var.html
+# data during the course of its operation.
+# https://www.cyberciti.biz/faq/check-free-space/

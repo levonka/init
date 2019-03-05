@@ -1,0 +1,12 @@
+useradd
+
+# useradd [options] (username)
+# to set password use command passwd
+
+# or use:
+# adduser (username)
+
+# remove a user: userdel (username)
+
+# https://www.cyberciti.biz/faq/howto-add-new-linux-user-account/
+# https://www.networkworld.com/article/3225109/managing-users-on-linux-systems.html

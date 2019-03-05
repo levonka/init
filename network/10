@@ -1,0 +1,7 @@
+traceroute slash16.org
+
+# traceroute shows all network devices between computer and some domain name.
+
+# https://losst.ru/komanda-traceroute-linux
+# https://ru.wikipedia.org/wiki/Traceroute
+# https://ru.wikipedia.org/wiki/Traceroute#Пример_в_Linux

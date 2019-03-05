@@ -1,0 +1,6 @@
+systemctl list-units --type service
+
+# systemctl - service manager.
+
+# https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
+# https://askubuntu.com/questions/912216/16-04-command-to-list-all-services-started-on-boot

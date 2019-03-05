@@ -1,0 +1,7 @@
+lsblk
+
+# or: fdisk -l
+# or: sfdisk -l /dev/sda
+
+# https://en.wikipedia.org/wiki/Partition_table
+# https://www.cyberciti.biz/faq/linux-list-disk-partitions-command/

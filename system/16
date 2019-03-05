@@ -1,0 +1,34 @@
+crontab
+
+# crontab -e - edit.
+# crontab -l - display.
+
+# execute the command every minute
+# *		*	 *	  *	   *		echo "Hello!" >> /home/username/file.txt
+# execute the command at 12.50 every day
+# 50	12	 *	  *	   *		echo "hi" >> /home/username/file.txt
+# execute the command every 2 min
+# */2	*	 *	  *	   *		echo "hola" >> /home/username/file.txt
+# execute the command every 2 hours
+# *		*/2	 *	  *	   *		sh /home/username/myscript.sh
+# execute the command every day at 6 and 18 hours
+# *		6,18 *	  *	   *		sh/home/username/myscript.sh
+
+
+# m		h	dom	 mon  dow
+# *		*	 *	  *	   *		command to be executed
+# |		|	 |	  |	   |
+# |		|	 |	  |	   +---- day of week (0 - 6) (Sunday=0)
+# |		|	 |	  +--------- month (1 - 12)
+# |		|	 +-------------- day of month (1 - 31)
+# |		+------------------- hour (0 - 23
+
+# system-wide crontab: /etc/crontab
+
+# logs: /var/log/syslog | grep 'CRON'
+
+# /var/spool/cron//crontabs/username
+
+# https://www.youtube.com/watch?v=zwvqVppij8E
+# https://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/
+# https://www.adminschoice.com/crontab-quick-reference

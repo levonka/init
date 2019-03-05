@@ -1,0 +1,14 @@
+# to connect myself as new user by ssh firstly i should make keychain using
+# command 'ssh-keygen'. 
+# Send public key to user (/.ssh/id_rsa.pub - public key, /.ssh/id_rsa - privat key).
+# Create file ~/.ssh/authorized_keys in user directory and put public key in it.
+# setup port and other settings in /etc/ssh/sshd_config
+# connect to user from client machine using command - ssh username@ip -p (port).
+
+# vns - Virtual Network Computing - it is a system that allows you to use the keyboard and mouse to interact with the graphical user interface on a remote server.
+
+# https://www.digitalocean.com/community/tutorials/vnc-ubuntu-16-04-ru
+# https://habr.com/en/sandbox/124137/
+# https://habr.com/ru/post/122445/
+# https://www.youtube.com/watch?v=rfYZR6opTVg&list=PLtK75qxsQaMII75AbcuIruao1k2qdxwjg
+# https://guides.hexlet.io/ssh/

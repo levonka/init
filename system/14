@@ -1,0 +1,10 @@
+tail -f /var/log/syslog &
+
+# or: nohup tail -f /var/log/syslog &
+
+# /var/log/syslog - contain global system log in which messages are written since system startup
+
+# https://habr.com/ru/post/332502/
+# https://unix.stackexchange.com/questions/103731/run-a-command-without-making-me-wait
+# https://tecadmin.net/run-command-in-background-on-linux/
+# https://www.cyberciti.biz/faq/linux-command-line-run-in-background/

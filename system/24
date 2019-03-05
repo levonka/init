@@ -1,0 +1,7 @@
+apt list --installed
+
+# or: dpkg --get-selections
+# or: apt-mark showmanual
+
+# https://www.cyberciti.biz/faq/show-display-get-installed-packages-software-list-linux-freebsd-openbsd/
+# https://askubuntu.com/questions/17823/how-to-list-all-installed-packages

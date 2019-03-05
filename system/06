@@ -1,0 +1,5 @@
+service ssh restart
+
+# or: /etc/init.d/ssh restart
+
+# https://www.cyberciti.biz/faq/howto-restart-ssh/

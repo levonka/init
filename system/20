@@ -1,0 +1,11 @@
+cat /etc/passwd | awk -F ":" '{print $1}'
+
+# first column is username
+# second: password
+# third: user id
+# 4th: default group id
+# 5th: first name, last name, phone number etc.
+# 6th: home directory
+# 7th: default shell
+
+# https://www.cyberciti.biz/faq/linux-list-users-command/

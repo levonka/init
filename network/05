@@ -1,0 +1,6 @@
+nslookup slash16.org | sed -n '2p' | awk '{print $2}' | awk -F "#" '{print $1}'
+
+# nslookup shows ip address of domain, or host name of ip (reverse DNS).
+
+# https://ab57.ru/cmdlist/nslookup.html
+# https://losst.ru/kak-polzovatsya-nslookup

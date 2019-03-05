@@ -1,0 +1,10 @@
+uptime
+
+# to see only the time use folowing command chain:
+# uptime | awk '{print $3,$4}' | sed 's/,//'
+# or just:
+# uptime -p
+
+# also u can use 'w' or 'top' command.
+
+# https://www.cyberciti.biz/faq/server-uptime-command-to-find-out-how-long-the-system-has-been-running/

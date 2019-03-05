@@ -1,0 +1,3 @@
+networksetup -getinfo wi-fi | grep 'Wi-Fi' | awk '{print $NF}'
+
+# https://yourmacguy.wordpress.com/2008/08/07/networksetup-command/

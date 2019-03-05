@@ -1,0 +1,8 @@
+echo "agottlie's broadcast address:"
+ifconfig en0 | grep 'broadcast' | awk '{print $NF}'
+echo "\nall IP adresses of the same subnet:"
+ping -c 2 192.168.21.255 | grep 'ms' | grep -v 'round-trip' | awk '{print $4}' | sed 's/://'
+
+# ping allows us to check the connection bettwen our computer with another server
+# by sending ECHO_REQUEST packets.
+# https://www.youtube.com/watch?v=vJV-GBZ6PeM

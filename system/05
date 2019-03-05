@@ -1,0 +1,6 @@
+service ssh status
+
+# also you can find state of the ssh using /etc/init.d/ssh status
+# if user is not root - use sudo before the commands
+
+# https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/
